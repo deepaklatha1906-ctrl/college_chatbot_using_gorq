@@ -1,20 +1,21 @@
-{ "college":{
+ {
   "college_name": "Anna University Regional Campus, Coimbatore",
-    "principal_name": "Dr. R. Saravan Kumar",
+  "general_info": {  
+    "Dean_info": {"Dean_neame":"Dr. R. Saravanakumar",
+                  "Dean_contact_number":"9894165888"},
     "college_location": "Navavoor, Coimbatore, Tamil Nadu",
     "contact_email": "cseaurcc@aurcc.edu.in",
-    "college_phone": "0422-1234567",
-    "working_hours": "9:00 AM to 4:30 PM (Monday to Friday)",
+    "contact_number": "0422-1234567",
+    "working_hours": "9:10 AM to 4:30 PM (Monday to Friday)",
     "website": "https://aurcc.edu.in",
     "motto": "Progress Through Knowledge"
   },
-
   "departments": {
     "CSE": {
       "hod": {
-        "name": "Dr. K. Manisekaran",
-        "room_no": "218",
-        "phone": "9442450955",
+        "name": "Dr.S.N.Mahalakshmi",
+        "room_no": "327",
+        "phone_no": "9443364660",
         "email": "manisekaran@aurcc.edu.in"
       },
       "office_room_no": "207",
@@ -22,24 +23,189 @@
         "B.E Computer Science and Engineering": {
           "semesters": {
             "1st_semester": {
-              "subjects": ["Mathematics I", "Physics", "Chemistry", "Engineering Graphics", "Programming in Python", "English"],
+              "subjects": ["Applied Calculus","English Essentials-I","Heritage of Tamils","Applied Physics-I","Applied Chemistry-I","Computer Programming:C",
+                           "Essentials of Computing","Makerspace","Life Skills for Engineers-I","Physical Education-I","Library","Tutor Ward Meeting"],
               "timetable": {
-                "Monday": ["Mathematics I(1,2)", "Physics(3,4)", "Programming in Python(5,6)", "English(7)"],
-                "Tuesday": ["Chemistry(1,2)", "Physics(3,4)", "Engineering Graphics(5,6,7)"],
-                "Wednesday": ["Programming in Python(1,2,3,4)", "English(5)", "Mathematics I(6,7)"],
-                "Thursday": ["Physics(1,2)", "Chemistry(3,4)", "Programming in Python(5,6,7)"],
-                "Friday": ["Engineering Graphics(1,2,3,4)", "English(5,6)", "Tutorials(7)"]
+                "Monday": ["Mathematics I", "Physics"],
+                "Tuesday": ["Chemistry", "Engineering Graphics"],
+                "Wednesday": ["Programming in C", "C Lab"],
+                "Thursday": ["Physics", "Workshop"],
+                "Friday": ["English", "Tutorials"]
               }
             },
-
             "2nd_semester": {
-              "subjects": ["Mathematics II", "Data Structures", "BEEE", "English", "Tamil", "Physics"],
+              "subjects": ["Mathematics II", "Data Structures", "Digital Logic Design", "Computer Organization", "Python Programming", "Environmental Science"],
               "timetable": {
-                "Monday": ["Mathematics II(1,2)", "Data Structures(3,4)", "English(5,6)", "Physics(7)"],
-                "Tuesday": ["BEEE(1,2)", "Tamil(3,4)", "Data Structures(5,6,7,8)"],
-                "Wednesday": ["Tamil(1,2)", "Physics(3,4)", "Data Structures(5)", "Mathematics II(6,7)"],
-                "Thursday": ["BEEE(1,2)", "Data Structures(3,4)", "English(5,6)", "Tamil(7)"],
-                "Friday": ["Mathematics II(1,2)", "Tamil(3,4)", "Physics(5,6,7)"]
+                "Monday": ["Math II", "Data Structures"],
+                "Tuesday": ["Digital Logic Design", "Python"],
+                "Wednesday": ["Data Structures Lab"],
+                "Thursday": ["COA", "English"],
+                "Friday": ["Python Lab"]
+              }
+            }
+          }
+        },
+        "B.Tech Artificial Intelligence and Data Science": {
+          "hod": {
+            "name": "Dr.S.N.Mahalakshmi",
+            "room_no": "327",
+            "phone_no": "9443364660",
+            "email": "manisekaran@aurcc.edu.in"
+          },
+          "semesters": {
+            "1st_semester": {
+              "subjects": ["Applied Calculus (MA25C01)","English Essentials-I (EN25C01)","Heritage of Tamils (UC25H01)","Applied Physics-I (PH25C01)",
+                           "Applied Chemistry-I (CY25C01)","Computer Programming:C (CS25C01)","Essentials of Computing (CS25C03)","Makerspace (ME25C04)",
+                           "Life Skills for Engineers-I (UC25A01)","Physical Education-I (UC25A02)","Library","Tutor Ward Meeting (TWM)"],
+               "timetable": {
+                "Monday": ["Applied Calculus (MA25C01)","Applied Physics-I (PH25C01)(THEORY)","Library","English Essentials-I (EN25C01)","Makerspace (ME25C04)",
+                           "Makerspace (ME25C04)","Computer Programming:C (CS25C01)(THEORY)","Computer Programming:C (CS25C01)(THEORY)"],
+                
+                "Tuesday": ["Essentials of Computing (CS25C03)(THEORY)","Essentials of Computing (CS25C03)(THEORY)","Applied Chemistry-I (CY25C01)(THEORY)","Library",
+                             "(Applied Physics-I (PH25C01)/Applied Chemistry-I (CY25C01))(LABORATORY)ROOM NO:129/128"],
+                
+                "Wednesday": ["Essentials of Computing (CS25C03)(LABORATORY)ROOM NO:330","Essentials of Computing (CS25C03)(LABORATORY)ROOM NO:330","Applied Calculus (MA25C01)","Library",
+                              "Heritage of Tamils (UC25H01)","Life Skills for Engineers-I (UC25A01)","Library"],
+                
+                 "Thursday": ["Tutor Ward Meeting (TWM)","English Essentials-I (EN25C01)","Applied Physics-I (PH25C01)(THEORY)","Applied Calculus (MA25C01)",
+                             "Makerspace (ME25C04)","Makerspace (ME25C04)","Physical Education-I (UC25A02)","Physical Education-I (UC25A02)"],
+                
+                 "Friday": ["Applied Chemistry-I (CY25C01)(THEORY)","Applied Calculus (MA25C01)","Library","Life Skills for Engineers-I (UC25A01)","Physical Education-I (UC25A02)",
+                           "Physical Education-I (UC25A02)","Computer Programming:C (CS25C01)(LABORATORY)ROOM NO:217","Computer Programming:C (CS25C01)(LABORATORY)ROOM NO:217"]
+                }
+            },
+            "2nd_semester": {
+              "subjects": ["Linear Algibra (MA25C02)","Basic Electrical and Electronics Engineering (EE25C01)","Digital Principles and Computer Organization (CS25C06)",
+                           "Tamils and Technology (UC25H02)","Applied Physics (CSIE)-II (PH25C03)","Python for Data Science (AD25201)",
+                           "English Essentials-II (EN25C02)","Re-Engineering for Innovation (ME25C05)","Life Skills for Engineers-II (UC25A03)",
+                           "Physical Education-II (UC25A04)","Foreign language","Tutor Ward Meeting (TWM)","Library"],
+              "timetable": {
+                "Monday": ["Python for Data Science (AD25201)ROOM NO:216","Python for Data Science (AD25201)ROOM NO:216","Applied Physics (CSIE)-II (PH25C03)",
+                           "English Essentials-II (EN25C02)","Linear Algibra (MA25C02)","Re-Engineering for Innovation (ME25C05)",
+                           "Re-Engineering for Innovation (ME25C05)","Library"],
+                
+                "Tuesday": ["Linear Algibra (MA25C02)","Basic Electrical and Electronics Engineering (EE25C01)","Digital Principles and Computer Organization (CS25C06)",
+                            "Digital Principles and Computer Organization (CS25C06)","English Essentials-II (EN25C02)","Tamils and Technology (UC25H02)",
+                            "Physical Education-II (UC25A04)","Physical Education-II (UC25A04)"],
+                
+                "Wednesday": ["Applied Physics (CSIE)-II (PH25C03)","Digital Principles and Computer Organization (CS25C06)","Re-Engineering for Innovation (ME25C05)",
+                              "Re-Engineering for Innovation (ME25C05)","Python for Data Science (AD25201)","Linear Algibra (MA25C02)","Foreign language","Foreign language"],
+                
+                "Thursday": ["Linear Algibra (MA25C02)","Digital Principles and Computer Organization (CS25C06)","Python for Data Science (AD25201)",
+                             "Tutor Ward Meeting (TWM)","English Essentials-II (EN25C02)","Basic Electrical and Electronics Engineering (EE25C01)",
+                             "Python for Data Science (AD25201)","Foreign language"],
+                
+                "Friday": ["Life Skills for Engineers-II (UC25A03)","Life Skills for Engineers-II (UC25A03)","Life Skills for Engineers-II (UC25A03)","Library",
+                           "Basic Electrical and Electronics Engineering (EE25C01)","Applied Physics (CSIE)-II (PH25C03)","Physical Education-II (UC25A04)","Physical Education-II (UC25A04)"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "ECE": {
+      "hod": {
+        "name": "Dr. S. Nandhini",
+        "room_no": "B-202",
+        "email": "nandhini@aurcc.edu.in"
+      },
+      "office_room_no": "B-110",
+      "courses": {
+        "B.E Electronics and Communication Engineering": {
+          "semesters": {
+            "1st_semester": {
+              "subjects": ["Applied Calculus (MA25C01)", "Basic Electronics and Electrical Engineering (EE25C04)", "Heritage of Tamils (UC25H01)",
+                           "English Essentials-I (EN25C01)", "Applied Physics-I (PH25C01)", "Applied Chemistry-I (CY25C01)", "Computer Programming:C (CS25C01)",
+                           "Makerspace (ME25C04)","Life Skills for Engineers-I (UC25A01)","Physical Education-I (UC25A02)","Library","Tutor Ward Meeting (TWM)"],
+              "timetable": {
+                "Monday": ["Tutor Ward Meeting (TWM)", "Applied Chemistry-I (CY25C01)","Applied Physics-I (PH25C01)","Heritage of Tamils (UC25H01)",
+                           "Applied Calculus (MA25C01)","Life Skills for Engineers-I (UC25A01)","Life Skills for Engineers-I (UC25A01)","Life Skills for Engineers-I (UC25A01)"],
+                
+                "Tuesday": ["Computer Programming:C (CS25C01)(LABORATORY) ROOM NO:216", "Computer Programming:C (CS25C01)(LABORATORY) ROOM NO:216",
+                            "English Essentials-I (EN25C01)","Applied Calculus (MA25C01)","Library","Library","Basic Electronics and Electrical Engineering (EE25C04)",
+                            "Library"],
+                
+                "Wednesday": [ "English Essentials-I (EN25C01)", "Basic Electronics and Electrical Engineering (EE25C04)","Makerspace (ME25C04)","Makerspace (ME25C04)",
+                               "(Applied Physics-I (PH25C01)/Applied Chemistry-I (CY25C01))(LABORATORY)ROOM NO:129/128","(Applied Physics-I (PH25C01)/Applied Chemistry-I (CY25C01))(LABORATORY)ROOM NO:129/128",
+                               "(Applied Physics-I (PH25C01)/Applied Chemistry-I (CY25C01))(LABORATORY)ROOM NO:129/128","(Applied Physics-I (PH25C01)/Applied Chemistry-I (CY25C01))(LABORATORY)ROOM NO:129/128"],
+                
+                "Thursday": ["Applied Physics-I (PH25C01)", "Basic Electronics and Electrical Engineering (EE25C04)","Applied Chemistry-I (CY25C01)","Applied Calculus (MA25C01)",
+                             "Physical Education-I (UC25A02)","Physical Education-I (UC25A02)","Library","Library"],
+                
+                "Friday": ["Applied Calculus (MA25C01)", "Library", "Computer Programming:C (CS25C01)(THEORY)","Computer Programming:C (CS25C01)(THEORY)","Physical Education-I (UC25A02)",
+                           "Physical Education-I (UC25A02)","Makerspace (ME25C04)","Makerspace (ME25C04)"]
+              }
+            },
+            "2nd_semester": {
+              "subjects": ["Linear Algebra (MA25C02)", "Tamils and Technology (UC25H02)", "English Essentials-II(EN25C02)", "Electron Devices (EC25C01)",
+                           "Circuits and Network Analysis (EC25C02)","Data Structures using C++ (CS25C05)","Devices and Circuits Laboratory (EC25C03)",
+                           "Re-Engineering for Innovation (ME25C05)","Life Skills for Engineers-II (UC25A03)","Physical Education-(UC25A04)","Foreign language",
+                           "Library","Tutor Ward Meeting(TWM)"],
+              "timetable": {
+                "Monday": ["Electron Devices (EC25C01)", "Library","Linear Algebra (MA25C02)","Data Structures using C++ (CS25C05)","Circuits and Network Analysis (EC25C02)",
+                              "English Essentials-II(EN25C02)","Physical Education-(UC25A04)","Physical Education-(UC25A04)"],
+                
+                "Tuesday": ["Electron Devices (EC25C01)","Library","English Essentials-II(EN25C02)","Data Structures using C++ (CS25C05)","Linear Algebra (MA25C02)",
+                            "Re-Engineering for Innovation (ME25C05)","Re-Engineering for Innovation (ME25C05)","Tutor Ward Meeting(TWM)"],
+
+                "Wednesday": ["Circuits and Network Analysis (EC25C02)",  "English Essentials-II(EN25C02)","Data Structures using C++ (CS25C05)(LOBRATORY)ROOM NO:216",
+                              "Data Structures using C++ (CS25C05)(LOBRATORY)ROOM NO:216","Devices and Circuits Laboratory (EC25C03)","Devices and Circuits Laboratory (EC25C03)",
+                              "Devices and Circuits Laboratory (EC25C03)","Devices and Circuits Laboratory (EC25C03)"],
+                
+                "Thursday": ["Data Structures using C++ (CS25C05)", "Linear Algebra (MA25C02)","Circuits and Network Analysis (EC25C02)","Electron Devices (EC25C01)",
+                              "Tamils and Technology (UC25H02)","Foreign language","Physical Education-(UC25A04)","Physical Education-(UC25A04)"],
+                
+                "Friday": ["Linear Algebra (MA25C02)", "Foreign language","Re-Engineering for Innovation (ME25C05)","Re-Engineering for Innovation (ME25C05)",
+                           "Life Skills for Engineers-II (UC25A03)","Life Skills for Engineers-II (UC25A03)","Life Skills for Engineers-II (UC25A03)","Foreign language"]
+              }
+            }
+          }
+        }
+      }
+    },
+
+
+    
+    "MECHANICAL": {
+      "hod": {
+        "name": "Dr. P. Surya Prakash",
+        "room_no": "C-105",
+        "email": "prakash@aurcc.edu.in"
+      },
+      "office_room_no": "114",
+      "courses": {
+        "B.E Mechanical Engineering": {
+          "semesters": {
+            "1st_semester": {
+              "subjects": ["Mathematics I", "Engineering Physics", "Basic Civil and Mechanical Engineering", "Engineering Graphics", "English"],
+              "timetable": {
+                "Monday": ["Math I", "Physics"],
+                "Tuesday": ["BCME", "Workshop"],
+                "Wednesday": ["Graphics", "English"],
+                "Thursday": ["Physics", "Lab"],
+                "Friday": ["Math I", "Seminar"]
+              }
+            },
+            "2nd_semester": {
+              "subjects": ["Linear Algebra (MA25C02)", "Engineering Mechanics", "Thermodynamics (ME25C02)", "Basic Electrical and Electronics Engineering (EE25C01)",
+                           "Applied Physics (ME)-II (PH25C05)","Applied Chemistry (ME) -II(CY25C03)","Tamils and Technology (UC25H02)",
+                           "Re-Engineering for Innovation (ME25C05)","English Essentials-II (EN25C02)","Life Skills for Engineers-II (UC25A03)",
+                           "Physical Education-I (UC25A04)","Foreign language","Tutor Ward Meeting (TWM)","Library"],
+              "timetable": {
+                "Monday": ["Linear Algebra (MA25C02)", "Thermodynamics (ME25C02)","Applied Chemistry (ME) -II(CY25C03)","English Essentials-II (EN25C02)",
+                           "Applied Physics (ME)-II (PH25C05)","Foreign language","Foreign language","Foreign language"],
+                
+                "Tuesday": ["Applied Physics (ME)-II (PH25C05)", "Basic Electrical and Electronics Engineering (EE25C01)","Applied Chemistry (ME) -II(CY25C03)",
+                            "Tutor Ward Meeting (TWM)","Thermodynamics (ME25C02)","Physical Education-I (UC25A04)","Physical Education-I (UC25A04)","Library"],
+                
+                "Wednesday": ["Tamils and Technology (UC25H02)","Linear Algebra (MA25C02)","Basic Electrical and Electronics Engineering (EE25C01)","Applied Physics (ME)-II (PH25C05)",
+                              "English Essentials-II (EN25C02)","Re-Engineering for Innovation (ME25C05)","Re-Engineering for Innovation (ME25C05)","Library"],
+                
+                "Thursday": ["Thermodynamics (ME25C02)","English Essentials-II (EN25C02)","Re-Engineering for Innovation (ME25C05)","Re-Engineering for Innovation (ME25C05)",
+                             "Basic Electrical and Electronics Engineering (EE25C01)","Linear Algebra (MA25C02)","Library","Library"],
+                
+                "Friday": ["Linear Algebra (MA25C02)", "Thermodynamics (ME25C02)","Physical Education-I (UC25A04)","Physical Education-I (UC25A04)","Life Skills for Engineers-II (UC25A03)",
+                           "Life Skills for Engineers-II (UC25A03)","Life Skills for Engineers-II (UC25A03)","Library"]
               }
             }
           }
@@ -48,8 +214,78 @@
     }
   },
 
+
   "procedures": {
-    "on_duty": "Collect OD form from department office, get faculty + advisor + HOD signature, submit to office.",
-    "leave": "Submit leave letter to class advisor or upload in portal before leave date."
+    "on_duty": "Collect OD form from department office, fill details, get respected faculty signature, get Class advicer signature, get HOD signature, and submit to office.",
+    "leave": "Submit leave letter to class advisor or upload in college portal before the leave date.",
+    "bonafide_certificate": "Apply through department office with valid reason and student ID card.",
+    "exam_registration": "Register through Anna University student portal before the deadline with subject codes.",
+    "library_card": "Submit application form in library with photo and ID proof.",
+    "id_card_replacement": "Approach admin office with ID proof and ₹100 fine payment for duplicate card."
+  },
+  "events": {
+    "symposium": "TechFest is conducted every March with project and coding competitions.",
+    "sports_day": "Annual Sports Day is celebrated in February.",
+    "cultural_day": "Cultural Fest is held every April with music, dance, and drama events.",
+    "annual_day": "Annual Day is celebrated at the end of every academic year with awards and performances."
+  },
+  "faculty_details": {
+    "CSE (1st sem)": [
+      {"name": "Dr. Priya", "subject": "Artificial Intelligence", "room": "A-210"},
+      {"name": "Mr. Senthil", "subject": "Machine Learning", "room": "A-211"},
+      {"name": "Mrs. Deepa", "subject": "Database Systems", "room": "A-215"}
+    ],
+    "AI-DS (1st sem)": [
+      {"name": "Dr.J.Vernold Vivin", "subject": "Applied Calculus", "room": "A-218"},
+      {"name": "Mrs.S.Kalaivani", "subject": "Heritage of Tamils", "room": "A-220"},
+      {"name": "Dr.L.Babitha", "subject": "English Essentials-I", "room": "A-218"},
+      {"name": "Dr.K.Rajasekar", "subject": "Applied Chemistry-I", "room": "A-220"},
+      {"name": "Dr.M.Krishnakumar", "subject": "Applied Physics-I", "room": "A-218"},
+      {"name": "Ms.Abia", "subject": "Big Data Analytics", "room": "A-220"},
+      {"name": "Dr.M.Balasubramaniyan", "subject": "Makerspace", "room": "A-218"},
+      {"name": "Dr.T.Usha Rani", "subject": "Makerspace", "room": "A-220"},
+      {"name": "Dr.M.Yuvaraju", "subject": "Makerspace", "room": "A-218"},
+      {"name": "Ms.J.Abi", "subject": "Makerspace", "room": "A-220"},
+      {"name": "Dr.L.Babitha", "subject": "Life Skills of Engineers-I", "room": "A-218"},
+      {"name": "Dr.D.Saravanamoorthy", "subject": "Physical Education-I", "room": "A-220"},
+      {"name": "Dr.N.Siva Sankar", "subject": "Physical Education-I", "room": "A-220"},
+      {"name": "Dr.I.Jayaraman", "subject": "Library", "room": "A-220"},
+      {"name": "Dr.P.Baskaran", "subject": "Library", "room": "A-220"},
+      {"name": "Dr.M.Krishnakumar", "subject": "Tutor Ward Meeting", "room": "A-220"},
+      {"name": "Mr.S.Saravanakumar", "subject": "Essentials of Computing", "room": "A-221"}
+      
+    ],
+    "ECE (1st sem)": [
+      {"name": "Dr. Harini", "subject": "Digital Signal Processing", "room": "B-201"},
+      {"name": "Mr. Aravind", "subject": "VLSI Design", "room": "B-204"}
+    ],
+    "MECHANICAL (1st sem)": [
+      {"name": "Dr. Ravi", "subject": "Thermodynamics", "room": "C-110"},
+      {"name": "Mr. Kumar", "subject": "Fluid Mechanics", "room": "C-114"}
+    ],
+    "VLSI (1st sem)": [
+      {"name": "Dr. Harini", "subject": "Digital Signal Processing", "room": "B-201"},
+      {"name": "Mr. Aravind", "subject": "VLSI Design", "room": "B-204"}
+    ],
+    "EEE (1st sem)": [
+      {"name": "Dr. Harini", "subject": "Digital Signal Processing", "room": "B-201"},
+      {"name": "Mr. Aravind", "subject": "VLSI Design", "room": "B-204"}
+    ]
+  },
+  "clubs": {
+    "Coding Club": "Focuses on programming contests and hackathons every weekend in Lab A-215.",
+    "Eco Club": "Promotes sustainability and tree plantation drives across campus.",
+    "Robotics Club": "Encourages innovation in automation and robot design, meets weekly in Mechanical Lab.",
+    "Music Club": "Hosts musical events and practice sessions every Thursday evening."
+  },
+  "placements": {
+    "placement_officer": "Mr. Arun",
+    "contact_email": "placement@aurcc.edu.in",
+    "contact_number": "0422-2345678",
+    "top_companies": ["TCS", "Infosys", "Zoho", "CTS", "Wipro"],
+    "average_package": "4.5 LPA",
+    "placement_training": "Placement training sessions are conducted every weekend for final year students."
   }
 }
+
+
